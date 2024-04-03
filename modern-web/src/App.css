@@ -19,15 +19,38 @@
     width:100%;
     height: 100vh;
 }
+
 .gradient-text {
     background: linear-gradient(90deg, #7855fe, #f77dff, #e300bf);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
 
-  
 
+  .unique{
+    color: #FFFFFF;
+    font-weight:400 ;
+    font-size: 1.200rem;
+    line-height: 34.64px;
+    letter-spacing: 4%;
+  }
+
+  .counter-same{
+    color: #FFFFFF;
+    font-weight:800 ;
+    font-size: 1.900rem;
+    line-height: 33.18px;
+    letter-spacing: 4%;
+  }
+
+  .counter-project{
+    color: #FFFFFF;
+    font-weight:800 ;
+    font-size: 1.900rem;
+    line-height: 33.18px;
+    letter-spacing: 4%;
+  }
+  
 @media (max-width: 1024px) {
     .navCon{
         display: flex;
